@@ -1,0 +1,11 @@
+Floyd's cycle detection algorithm / Hare and Tortoise algo -
+    : https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/?ref=gcse
+
+
+Pseudocode:
+
+1.Initialize two-pointers and start traversing the linked list.
+2.Move the slow pointer by one position.
+3.Move the fast pointer by two positions.
+4.If both pointers meet at some point then a loop exists and if the fast pointer
+ meets the end position then no loop exists.
